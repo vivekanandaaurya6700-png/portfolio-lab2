@@ -1,13 +1,10 @@
-/* =================================
-   PERSONAL PORTFOLIO WEBSITE
-   Lab Assignment 2 - CSS Core
-================================= */
 
-/* Google Font */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-/* General Styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +24,7 @@ body {
 }
 
 
-/* Header Styling */
+
 header {
     background-color: #0756b5;
     color: white;
@@ -43,7 +40,7 @@ header h1 {
 }
 
 
-/* Navigation Styling */
+
 nav {
     margin-top: 10px;
 }
@@ -62,7 +59,7 @@ nav a:hover {
 }
 
 
-/* Section Styling */
+
 section {
     padding: 45px 20px;
     margin: 10px 0;
@@ -75,9 +72,7 @@ h2 {
 }
 
 
-/* =================================
-   PROFILE AVATAR DESIGN
-================================= */
+
 
 .avatar {
     width: 300px;
@@ -91,7 +86,7 @@ h2 {
 }
 
 
-/* Face */
+
 .avatar-head {
     position: absolute;
     width: 112px;
@@ -104,7 +99,7 @@ h2 {
 }
 
 
-/* Hair */
+
 .avatar-hair {
     position: absolute;
     width: 130px;
@@ -140,7 +135,7 @@ h2 {
 }
 
 
-/* Neck */
+
 .avatar-neck {
     position: absolute;
     width: 48px;
@@ -152,7 +147,7 @@ h2 {
 }
 
 
-/* Suit */
+
 .avatar-body {
     position: absolute;
     width: 240px;
@@ -164,7 +159,7 @@ h2 {
     z-index: 4;
 }
 
-/* Shirt Collar */
+
 .avatar-body::before {
     content: "";
     position: absolute;
@@ -177,7 +172,7 @@ h2 {
 }
 
 
-/* About Section */
+
 #about {
     background-color: #f4f4f4;
     padding: 50px 20px;
@@ -191,7 +186,7 @@ h2 {
 }
 
 
-/* Horizontal Line */
+
 hr {
     border: none;
     border-top: 2px solid #ccc;
@@ -199,9 +194,7 @@ hr {
 }
 
 
-/* =================================
-   SKILLS TABLE
-================================= */
+
 
 table {
     width: 60%;
@@ -227,9 +220,7 @@ tr:nth-child(even) {
 }
 
 
-/* =================================
-   PROJECT SECTION
-================================= */
+
 
 .project {
     width: 60%;
@@ -253,9 +244,7 @@ tr:nth-child(even) {
 }
 
 
-/* =================================
-   CONTACT FORM
-================================= */
+
 
 form {
     width: 60%;
@@ -288,7 +277,7 @@ input:focus, textarea:focus {
 }
 
 
-/* Button Styling */
+
 button {
     display: block;
     margin: 20px auto 0;
@@ -306,7 +295,7 @@ button:hover {
 }
 
 
-/* Back To Top Button */
+
 .back-to-top {
     position: fixed;
     right: 15px;
@@ -323,7 +312,7 @@ button:hover {
 }
 
 
-/* Footer */
+
 footer {
     background-color: #063d80;
     color: white;
@@ -331,7 +320,7 @@ footer {
 }
 
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
 
     table, form, .project {
